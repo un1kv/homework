@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../public/background\ \(1\).jpg");
+  
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#keta{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.container{
+  width: 450px;
+  border: 10px cadetblue dashed;
+  border-radius: 10px;
+  background-color: rgb(240, 225, 164);
+  
+}
+
+h4{
+  background-color: rgb(83, 87, 76);
+  background-size: 5px;
+  
+}
+
+.header{
+  background-image: url("../public/logo.png");
+  background-repeat: no-repeat;
+  background-position: 900px;
+  color: rgb(240, 225, 164);
+  
+
+}
+
+
+
